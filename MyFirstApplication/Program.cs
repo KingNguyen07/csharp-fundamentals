@@ -5,7 +5,7 @@ Console.WriteLine("Hello, World!");
 
 // The Below Statement calls a local function
 // single line comment
-HouseExample();
+
 
 /*
  Multi-line comment
@@ -13,7 +13,12 @@ The below statement is a local function. Local functions
 are inside of members and are private by default. This means
 inside that member.
  */
-void HouseExample()
+
+// Lesson Examples
+//HouseExample();
+Lesson1Example();
+
+//void HouseExample()
 {
     House myHouse = new House();
     myHouse.DoorOpenClose();
@@ -30,3 +35,14 @@ void MyLocalFunction()
     Console.WriteLine("I am learning stuff every day.");
 }   
 MyLocalFunction();
+
+// Lesson 1 Value Types
+void Lesson1Example()
+{
+    Lesson1 myLesson = new Lesson1();
+    myLesson.IntMinMax();
+    myLesson.IntegralExample();
+    myLesson.ConvertFloatToInt();
+    myLesson.LongFromInt();
+}
+
